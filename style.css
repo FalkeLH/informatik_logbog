@@ -3,10 +3,29 @@ body{
     background-size: 100%;
 }
 
+header{
+    border: 3px solid;
+    border-radius: 30%;
+    border-color: black;
+    background-color: rgb(241, 249, 255);
+    margin: auto;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 40%;
+}
+
+header:hover{
+    background-color: rgb(220, 237, 250);
+}
+
 /* overskrift h1 design */
 h1{
     font-style: bold;
     font-size: 30px;
+    text-align: center;
 }
   
 pre{
