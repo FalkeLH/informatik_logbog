@@ -3,51 +3,23 @@ body{
     background-size: 100%;
 }
 
-header{
-    border: 3px solid;
-    border-radius: 18%;
-    border-color: black;
-    background-color: rgb(241, 249, 255);
-    margin: auto;
-    position: absolute;
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto; 
-    width: 40%;
-}
-
-header:hover{
-    background-color: rgb(220, 237, 250);
-}
-
 /* overskrift h1 design */
 h1{
     font-style: bold;
     font-size: 30px;
+    background-color: aliceblue;
     text-align: center;
-}
-  
-pre{
-    background-color: lightgray;
-}
-  
-.boxFloatRighe{
-    float: right;
-    background-color: rgb(200,100,100);
-    width: 40%;
-    height: 40%;
-    overflow: hidden;
-    font-size: 40;
-}
-  
-img {
-    display: block;
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    border-radius: 5px;
 }
 
+.h1_container {
+    width: 100%;
+    align-items: center;
+}
+  
 .webteknologier{
     background-color: azure;
     border-radius: 10px;
