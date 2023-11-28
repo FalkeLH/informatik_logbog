@@ -1,7 +1,16 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-image: url("lawn.webp");
 }
 canvas {
   display: block;
+}
+
+.text_div {
+  background-color: aliceblue;
+}
+
+.main_side {
+  width: 70vw;
 }
