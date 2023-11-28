@@ -1,0 +1,47 @@
+body {
+    display: grid;
+    background-color: #408CDB;
+    grid-template-rows: 10vh 80vh 10vh;
+    margin:0px;
+    color: #040c06;;
+}
+
+header {
+    grid-column: 1 / 2;
+    background-color: #305d42;
+    text-align: center;
+}
+
+.main_page {
+    grid-column: 1 / 2;
+    display: grid;
+    grid-template-columns: 70vw 30vw;
+}
+
+.main_page h1 {
+    margin: 20px;
+}
+
+.main_page p {
+    margin: 20px;
+}
+
+.main_side {
+    grid-column: 1 / 2;
+    background-color:  #bedc7f;
+}
+
+.second_side {
+    background-color: #89a257;
+    grid-column: 2 / 3;
+}
+
+footer {
+    background-color: #4d8061;
+    grid-column: 1 / 2;
+    display: flex;
+}
+
+footer p {
+    margin-left: 10px;
+}
