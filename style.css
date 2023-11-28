@@ -1,56 +1,47 @@
-body{
-    background-image: url(falke.jpg);
-    background-size: 100%;
+body {
+    display: grid;
+    background-color: #408CDB;
+    grid-template-rows: 10vh 80vh 10vh;
+    margin:0px;
+    color: #040c06;;
 }
 
-header{
-    border: 3px solid;
-    border-radius: 18%;
-    border-color: black;
-    background-color: rgb(241, 249, 255);
-    margin: auto;
-    position: absolute;
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto; 
-    width: 40%;
-}
-
-header:hover{
-    background-color: rgb(220, 237, 250);
-}
-
-/* overskrift h1 design */
-h1{
-    font-style: bold;
-    font-size: 30px;
+header {
+    grid-column: 1 / 2;
+    background-color: #305d42;
     text-align: center;
 }
-  
-pre{
-    background-color: lightgray;
-}
-  
-.boxFloatRighe{
-    float: right;
-    background-color: rgb(200,100,100);
-    width: 40%;
-    height: 40%;
-    overflow: hidden;
-    font-size: 40;
-}
-  
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+
+.main_page {
+    grid-column: 1 / 2;
+    display: grid;
+    grid-template-columns: 70vw 30vw;
 }
 
-.webteknologier{
-    background-color: azure;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
+.main_page h1 {
+    margin: 20px;
+}
+
+.main_page p {
+    margin: 20px;
+}
+
+.main_side {
+    grid-column: 1 / 2;
+    background-color:  #bedc7f;
+}
+
+.second_side {
+    background-color: #89a257;
+    grid-column: 2 / 3;
+}
+
+footer {
+    background-color: #4d8061;
+    grid-column: 1 / 2;
+    display: flex;
+}
+
+footer p {
+    margin-left: 10px;
 }
