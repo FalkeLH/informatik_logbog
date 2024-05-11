@@ -4,7 +4,6 @@ body {
     margin:0px;
     background-color: white;
     color: #2B3233;
-    font-family: "Roboto Condensed", sans-serif;
 }
 
 .upper-lower {
@@ -50,16 +49,16 @@ footer {
     display: flex;
 }
 
-footer a:link {
-    color: #2B3233;
-}
-
-footer a:visited {
-    color: #2B3233;
-}
-
 footer p {
     margin-left: 10px;
+}
+
+a:link {
+    color: #2B3233;
+}
+
+a:visited {
+    color: #2B3233;
 }
 
 a:hover {
