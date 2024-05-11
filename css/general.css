@@ -1,3 +1,40 @@
 body {
     font-family: "Roboto Condensed", sans-serif;
+    color: #2B3233;
+    margin: 0px;
+    padding: 0px;
+}
+
+a:link {
+    color: #2B3233;
+}
+
+a:visited {
+    color: #2B3233;
+}
+
+a:hover {
+    text-shadow: 0px 2px 3px white;
+    color: #455052;
+}
+
+header {
+    background-color: #1FA4B5;
+    grid-column: 1 / 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    grid-column: 1 / 2;
+    display: flex;
+}
+
+footer p {
+    margin-left: 10px;
+}
+
+.margin {
+    margin: 8px;
 }

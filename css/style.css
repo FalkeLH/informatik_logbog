@@ -3,18 +3,10 @@ body {
     grid-template-rows: 10vh 80vh 10vh;
     margin:0px;
     background-color: white;
-    color: #2B3233;
 }
 
 .upper-lower {
     background-color: #1FA4B5;
-}
-
-header {
-    grid-column: 1 / 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .main_page {
@@ -42,25 +34,4 @@ header {
 .second_side {
     background-color: #00C6E0;
     grid-column: 2 / 3;
-}
-
-footer {
-    grid-column: 1 / 2;
-    display: flex;
-}
-
-footer p {
-    margin-left: 10px;
-}
-
-a:link {
-    color: #2B3233;
-}
-
-a:visited {
-    color: #2B3233;
-}
-
-a:hover {
-    color: #53a2be;
 }
