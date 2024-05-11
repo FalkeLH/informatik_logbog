@@ -38,3 +38,21 @@ footer p {
 .margin {
     margin: 8px;
 }
+
+@media only screen and (max-width: 1000px) {
+    .narrow-screen {
+      display: block;
+    }
+    .wide-screen {
+      display: none;
+    }
+  }
+
+@media only screen and (min-width: 1001px) {
+    .wide-screen {
+      display: block;
+    }
+    .narrow-screen {
+      display: none;
+    }
+  }
