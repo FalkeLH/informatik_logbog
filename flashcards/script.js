@@ -4,9 +4,13 @@ let back = document.getElementById("back");
 let i = 0;
 
 function next_question() {
-    front.innerHTML = results[i]["Q"];
-    back.innerHTML = results[i]["A"];
-    i++;
+  if (i >= results.length) {
+    i = 0;
+  }
+
+  front.innerHTML = results[i]["Q"];
+  back.innerHTML = results[i]["A"];
+  i++;
 }
 
 window.onload = function() {
